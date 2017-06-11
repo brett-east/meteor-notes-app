@@ -50,12 +50,12 @@ Meteor.methods({
       },
       title: {
         type: String,
-        min: 1,
+        min: 0,
         optional: true
       },
       body: {
         type: String,
-        min: 1,
+        min: 0,
         optional: true
       }
     }).validate({
