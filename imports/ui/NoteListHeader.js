@@ -5,10 +5,14 @@ import PropTypes from 'prop-types';
 
 export const NoteListHeader = (props) => {
   return (
-    <div>      
+    <div>
       <button onClick={() => props.meteorCall('notes.insert')}>Create note</button>
     </div>
   );
+};
+
+NoteListHeader.propTypes = {
+  meteorCall: PropTypes.func.isRequired
 };
 
 export default createContainer(() => {

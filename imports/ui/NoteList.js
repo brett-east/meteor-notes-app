@@ -19,7 +19,7 @@ export const NoteList = (props) => {
   );
 };
 
-NoteList.PropTypes = {
+NoteList.propTypes = {
   notes: PropTypes.array.isRequired
 };
 

@@ -50,7 +50,7 @@ export class Login extends React.Component {
   }
 };
 
-Login.PropTypes = {
+Login.propTypes = {
   loginWithPassword: PropTypes.func.isRequired
 };
 

@@ -11,7 +11,7 @@ const NoteListItem = (props) => {
   );
 };
 
-NoteListItem.PropTypes = {
+NoteListItem.propTypes = {
   note: ProptTypes.object.isRequired
 };
 
